@@ -1,0 +1,10 @@
+[
+  {
+    "error": "make: *** No rule to make target `hello.c'.  Stop.",
+    "solution": "You need call 'make hello' instead of 'make hello.c', it is not expecting the c file as argument, instead just the name hello with out the extension .c"
+  },
+  {
+    "error": "make: *** No targets specified and no makefile found.  Stop.",
+    "solution": "Along with make you need to give the argument to compile the C code.e.g: make hello"
+  }
+]
